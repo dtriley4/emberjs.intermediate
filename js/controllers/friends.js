@@ -1,3 +1,3 @@
 (function( app ) {
-  app.FriendsController = Ember.Controller.extend();
+  app.FriendsController = Ember.ArrayController.extend();
 })(window.App);

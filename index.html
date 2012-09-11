@@ -17,6 +17,9 @@
     </script>
     <script type="text/x-handlebars" data-template-name="friends">
       <h2>Friends</h2>
+      {{#each friend in controller}}
+      <p>{{friend.name}}</p><br/>
+      {{/each}}
     </script>
     <!-- /* Handlebars templates end */ -->
     <script src="js/libs/jquery.min.js"></script>

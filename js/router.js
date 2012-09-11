@@ -8,7 +8,7 @@
       friends: Ember.Route.extend({
         route: '/friends',
       connectOutlets: function(router){
-        router.get('applicationController').connectOutlet('friends', App.Friend);
+        router.get('applicationController').connectOutlet('friends', [{name: 'thomas'},{name: 'matt'},{name: 'kevin'},{name: 'jake'},{name: 'jeff'},{name: 'brian'},{name: 'jimmy'}]);
       }
       }),
       friend: Ember.Route.extend({
